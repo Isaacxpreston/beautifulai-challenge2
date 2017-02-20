@@ -7,9 +7,9 @@ var colors = {
 
 var styles = {
   "list": {
-    background: colors.accent,
+    background: colors.main,
     width: "100%",
-    color: colors.secondary,
+    color: colors.accent,
     "padding": "5px",
     "font-size": "1.25em",
     "font-family": "Open Sans, sans-serif",
@@ -52,7 +52,7 @@ var styles = {
     width: window.innerWidth/2,
     height: window.innerHeight/2,
     "overflow": "hidden",
-    background: colors.accent
+    background: colors.main
   },
   "entry_wrapper": {
     height: "70%",
@@ -74,8 +74,8 @@ var styles = {
   "current": {
     width: "15%",
     height: "100%",
-    background: colors.accent,
-    color: colors.secondary,
+    background: colors.main,
+    color: colors.accent,
     "padding-top": "1%",
     "text-align": "center",
     "font-size": "1.75em",
